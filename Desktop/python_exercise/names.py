@@ -16,12 +16,10 @@ print(length_6)
 print(length_8)
 length_7 = []
 
-
 print("the least frequent length name is : ")
 for name in names:
     if(len(name) == 7):
-        length_7.append(name)
-    
+        length_7.append(name)  
 print(length_7)
 print(length_8)
 print(length_6)
