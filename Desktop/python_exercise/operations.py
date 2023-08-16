@@ -22,7 +22,7 @@ elif key == "C":
     for num in numbers:
         if(num % 2 != 0):
             sum_of_odds += num
-    print( sum_of_odds)
+    print(sum_of_odds)
     
 elif key == "D":
     duplicates = []
@@ -41,11 +41,3 @@ elif key == "E":
 
 else:
     print("please enter key from 1 to 5")
-
-
-
-
-
-
-
-
