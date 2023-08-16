@@ -23,7 +23,7 @@ elif key == "C":
         if(num % 2 != 0):
             sum_of_odds += num
     print( sum_of_odds)
-
+    
 elif key == "D":
     duplicates = []
     for num in numbers:
