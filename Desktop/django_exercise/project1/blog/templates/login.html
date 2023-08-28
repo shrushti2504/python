@@ -1,0 +1,14 @@
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'mycss.css' %}">
+<div class="login">
+    <form method="POST"id="login">
+    {% csrf_token %}
+    <label>Email</label>
+    <input type="email"id="email"name="email" /><br>
+    <label>password</label>
+    <input type="password"id="pass"name="password" />
+    <button type="submit"id="log">Log in</button>
+</form>
+</div>
